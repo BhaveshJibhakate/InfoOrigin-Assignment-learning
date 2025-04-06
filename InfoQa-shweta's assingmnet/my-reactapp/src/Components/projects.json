@@ -1,0 +1,59 @@
+{
+    "projects": [
+      {
+        "id": 25,
+        "name": "Info-Apps",
+        "start_date": "Feb-26-2025",
+        "end_date": "Feb-28-2025",
+        "status": "In-Progress",
+        "stage": "Planning",
+        "expanded": false,
+        "tabs": {
+          "active_tab": "user_stories",
+          "user_stories": [
+            {
+              "id": 101,
+              "name": "User Story 1..",
+              "status": "To-Do"
+            },
+            {
+              "id": 102,
+              "name": "User Story 2",
+              "status": "In Progress"
+            }
+          ],
+          "releases": [
+            {
+              "id": 201,
+              "name": "Release 1",
+              "date": "Mar-10-2025"
+            },
+            {
+              "id": 202,
+              "name": "Release 2",
+              "date": "Mar-20-2025"
+            }
+          ]
+        }
+      },
+      {
+        "id": 26,
+        "name": "Project B",
+        "start_date": "Mar-01-2025",
+        "end_date": "Mar-05-2025",
+        "status": "Inactive",
+        "stage": "Development",
+        "expanded": false,
+        "tabs": {
+          "active_tab": "releases",
+          "user_stories": [  
+          {
+            "id": 103,
+            "name": "User Story 1",
+            "status": "To-Do"
+          }],
+          "releases": []
+        }
+      }
+    ]
+  }
